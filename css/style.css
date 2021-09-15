@@ -1,0 +1,314 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+</style>
+
+* {
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+body {
+	background-color: #eb6d3d;
+	background-size: cover;
+	max-width: 1366px;
+	height: 720px;
+}
+
+main {
+	width: 98%;
+	height: 380px;
+	max-width: 1366px;
+}
+
+header {
+	background-image: url(../imagenes/fondo_header.png);
+	width: 102%;
+
+}
+
+header  a img{
+	height: 13%;
+	width:10%;
+	padding-left: 585px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+.otto_presentacion {
+	margin-left: 4%;
+	margin-right: 8%;
+	margin-top: 22px;
+	margin-bottom: 4%;
+   
+   box-shadow: 58px 0px 25px #a05848;
+
+}
+
+h1 {
+	color: #003aa0;
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 1.5%;
+}
+
+.galeria {
+margin-left: 2%;
+margin-bottom: 3%;
+padding-left: 1.5%;
+padding-top: 2%;
+background-color: #fdd63b;
+width: 95%;
+height: 250px;
+}
+
+
+#equipo .patines {
+	margin-left: 90px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .reggie_rocket {
+	margin-left: 53px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .twister {
+	margin-left: 53px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .sam {
+	margin-left: 53px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#texto {
+	color: #b80113;
+	font-family: 'Libre Franklin', sans-serif;
+	width: 90%;
+	height: 150px;
+	column-count: 3;
+	margin-top: 3%;
+	margin-left: 5%;
+	padding-top: 15px;
+}
+
+#texto .reggie a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#texto .deportes a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#texto .otto_span a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #c4292f;
+	text-decoration: none;
+	color: white;
+	margin-left: 14px;
+}
+
+footer li {
+	display: inline;
+}
+
+
+footer .nick_logo {
+	width: 9%;
+	height: 100%;
+	float: right;
+	padding-bottom: 0.2%;
+	padding-right: 1%;
+}
+
+footer .uces_logo {
+	width: 9%;
+	height: 110%;
+	float: right;
+	padding-right: 1%;
+	padding-bottom: 3%;
+}
+
+footer .creditos {
+	width: 12%;
+	height: 34%;
+	text-decoration: none;
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	padding-left: 8px;
+	padding-top: 17px;
+	}
+
+}
+/*Large  (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+body {
+	background-color: #eb6d3d;
+	background-size: cover;
+	max-width: 1199px;
+	height: 700px;
+}
+
+main {
+	width: 98%;
+	height: 300px;
+	max-width: 1199px;
+}
+
+header {
+	background-image: url(../imagenes/fondo_header.png);
+	width: 102%;
+
+}
+
+header  a img{
+	height: 13%;
+	width:10%;
+	padding-left: 10px;
+
+}
+
+.otto_presentacion {
+	margin-top: 22px;
+	margin-bottom: 4%;
+   
+   box-shadow: 20px 10px 25px #a05848;
+
+}
+
+h1 {
+	color: #003aa0;
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 1%;
+}
+
+.galeria {
+margin-bottom: 3%;
+margin-left: 8%;
+padding-left: 3%;
+padding-top: 2%;
+background-color: #fdd63b;
+width: 83%;
+height: 500px;
+}
+
+#equipo .patines {
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .reggie_rocket {
+	margin-left: 49px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .twister {
+	margin-left: 49px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#equipo .sam {
+	margin-left: 49px;
+	margin-top: 30px;
+	border-radius: 120px;
+	box-shadow: 20px 0px 25px #a05848;
+}
+
+#texto {
+	color: #b80113;
+	font-family: 'Libre Franklin', sans-serif;
+	width: 90%;
+	height: 150px;
+	column-count: 2;
+	margin-top: 3%;
+	margin-left: 5%;
+	padding-top: 15px;
+	font-size: 17.5px;
+}
+
+#texto .reggie a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#texto .deportes a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#texto .otto_span a {
+	color: #4b4477;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #c4292f;
+	text-decoration: none;
+	color: white;
+	margin-left: 14px;
+}
+
+footer li {
+	display: inline;
+}
+
+
+footer .nick_logo {
+	width: 10%;
+	height: 100%;
+	float: right;
+	padding-bottom: 0.2%;
+	padding-right: 1%;
+}
+
+footer .uces_logo {
+	width: 10%;
+	height: 110%;
+	float: right;
+	padding-right: 1%;
+	padding-bottom: 3%;
+}
+
+footer .creditos {
+	width: 16%;
+	height: 34%;
+	padding-left: 9px;
+	padding-top: 17px;
+
+	}
+
+}
